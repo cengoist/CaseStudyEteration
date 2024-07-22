@@ -74,7 +74,7 @@ const Cart = () => {
       />
       <View style={styles.totalContainer}>
         <Text style={styles.totalText}>Total: {total.toFixed(2)} ₺</Text>
-        <TouchableOpacity style={styles.completeButton} onPress={() => { /* Complete purchase action */ }}>
+        <TouchableOpacity style={styles.completeButton}>
           <Text style={styles.completeButtonText}>Complete</Text>
         </TouchableOpacity>
       </View>
